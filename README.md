@@ -44,11 +44,11 @@ A ready to use image is in the quay.io registry:
 
 ## OpenShift deployment
 
-Just apply the *Deployment.yml* file in the *k8s* directory. Check if the pods are created and ready with
+Just apply the *Deployment.yml* file in the *k8s* directory. Check if the pod is created and ready with
 
 `oc get pod -w`
 
-If there's a problem, investigate and fix. When the pod is healthy, find the route with
+If there's a problem, investigate and fix. When the pod is running and healthy, find the public endpoint with
 
 `oc get route`
 
