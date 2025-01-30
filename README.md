@@ -40,7 +40,7 @@ And then run the image:
 `podman run -p 8080:8080 hello:latest`
 
 A ready to use image is in the quay.io registry:  
-*quay.io/nlembers/summit-2024-hello-app:1.0*
+*quay.io/nlembers/openshift-gitops-hello-app:1.0*
 
 ## OpenShift deployment
 

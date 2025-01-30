@@ -16,8 +16,8 @@ spec:
         app: hello
     spec:
       containers:
-        - image: quay.io/nlembers/summit-2024-hello-app:1.0
-          name: summit-2024-hello-app
+        - image: quay.io/nlembers/openshift-gitops-hello-app:1.0
+          name: openshift-gitops-hello-app
           ports:
             - containerPort: 8080
               name: http
